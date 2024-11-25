@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Css Link -->
+    <link rel="stylesheet" href="../Css/login.css">
+
+    <!-- Font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+
+    <!-- Bootstrap CSS -->
+    <link href="../bootstrap-5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+    <!-- Bootstrap JS -->
+    <script src="../bootstrap-5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Jquery Link -->
+    <script src="../Jquery/main.js"></script>
+    <script src="../Jquery/login.js"></script>
+
+    <title>Login Page</title>
+</head>
+<body>
+    <!-- Header -->
+    <div class="overflow-x-hidden overflow-y-auto">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+          <div class="container-fluid">
+            <a class="navbar-brand text-primary fw-bold" href="#">VIRTURCARGO</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav nav-underline  mb-2 mb-lg-0" style="margin-left: 20%;">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Services
+                  </a>
+                  <ul class="dropdown-menu ">
+                        <li><a class="dropdown-item" href="#">International Shipping</a></li>
+                        <li><a class="dropdown-item" href="#">Domestic Shipping</a></li>
+                        <li><a class="dropdown-item" href="#">Cargo Shipping</a></li>
+                        <li><a class="dropdown-item" href="#">Freight Services</a></li>
+                        <li><a class="dropdown-item" href="#">Container Shipping</a></li>
+                        <li><a class="dropdown-item" href="#">Express Shipping</a></li>
+                        <li><a class="dropdown-item" href="#">Logistics Solutions</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./address.html" aria-disabled="true">Addresses</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./Pages/login.html" aria-disabled="true">Login/Register</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./track.html">Track</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle me-2 " href="#" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Careers
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Become an Agent</a></li>
+                    <li><a class="dropdown-item" href="#">Open Positions</a></li>
+                    <li><a class="dropdown-item" href="#">Working with us</a></li>
+                  </ul>
+    
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle me-2" href="#" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Help
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Contact Us</a></li>
+                    <li><a class="dropdown-item" href="#">FAQ</a></li>
+                    <li><a class="dropdown-item" href="#">Help Center</a></li>
+                    <li><a class="dropdown-item" href="#">Live Chat</a></li>
+                    <li><a class="dropdown-item" href="#">Email Support</a></li>
+                    <li><a class="dropdown-item" href="#">Phone Support</a></li>
+                    <li><a class="dropdown-item" href="#">Logistics Solutions</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        
+        <!-- Login -->
+        <div class="form-body">
+            <form action="#" method="get">
+                <h3 id="login"> LOGIN</h3>
+                <div class="input-div">
+                    <input class="formInput" type="email" id="email" name="email" placeholder="Email address">
+                    <div class="error"></div>
+                </div>
+                <div class="input-div">
+                    <input class="formInput" type="password" id="password" name="password" placeholder="Password">
+                    <div class="error2"></div>
+                </div>
+
+                <!-- Remember me -->
+                <div id="remember">
+                    <label for="rememberMe">
+                        <input type="checkbox" id="rememberMe" name="rememberMe"> Remember Me
+                    </label>
+
+                <!-- Forget password -->
+                    <a href="#">Forget Password?</a>
+                </div>
+                <button class="formButton" type="submit">Sign In</button>
+
+                <div class="signUp">
+                  <p>Don't have an account?
+                      <span style="color: #0d6efd;">
+                          <a href="./Register.html">Sign Up</a>
+                      </span>
+                  </p>
+                </div>
+            </form>
+        </div>
+
+        <!-- Footer -->
+        <footer class="bg-dark text-white py-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h5>About Us</h5>
+                        <p>Learn more about our company and values.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h5>Quick Links</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="text-white">Home</a></li>
+                            <li><a href="#" class="text-white">Services</a></li>
+                            <li><a href="#" class="text-white">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <h5>Follow Us</h5>
+                        <a href="#" class="text-white mr-3"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-white mr-3"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-white mr-3"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="text-center mt-4">
+                    <p>&copy; 2024 Your Company. All Rights Reserved.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
